@@ -13,7 +13,10 @@ Its very important to carefully select reliable contractor if you are developmen
 ### Key features of solution:
 - Special model for classifying whole contract. According to given dataset less than 5% of the contracts have both the 1 and 0 target (in the beggining of the contract probabilty should be small but than should increase) so it makes sense to build model for classifying if contract will fail or not.
 - Variety of generated features. We generated different features starting from tsfresh and custom binarization to graph contractor embeddings and empirical features like PageRank.
-- Robustness of solution. We did custom features selection and through out features that were creating bias in train 
+- Robustness of solution. We did custom features selection and through out features that were creating bias in train
+- Detailed interpretation. We interpret predictions using several custom techniques based on information about contractor, specialization. **Here is the example:** `Потенциальных проблем, которые могут свидетельствовать о повышении риска срыва сделки на данный момент не обнаружены. Контракты с таким стартовым распределением параметров срываются в начале сделки реже всего.
+ -Индекс к доверия к исполнителю: 0.94. Это в пределах допустимой нормы, а значит исполнитель или другие исполнители, с которыми он связан, имели низкую долю похожих сорвавшихся сделок и высокий кредит доверия.
+ -Контракты с такой специализацией срываются в среднем в 12.0% случаев. Это допустимое значение, показывающее, что специализация мало влияет на вероятность срыва."`
   
 ### Repository structure
 - <ins>**notebooks/training**</ins> - all notebooks with various training methods for solving target task (RNNs, boostings...)
