@@ -19,7 +19,7 @@ Its very important to carefully select reliable contractor if you are developmen
 - <ins>**notebooks/training**</ins> - all notebooks with various approaches for solving target task (RNNs, boostings...)
 - <ins>**notebooks/features**</ins> - all notebooks with feature generation code (GNN embeddings, tsfresh...)
 - <ins>**app**</ins> - full working streamlit app with best solution  
-- <ins>**presentation.pdf**</ins> - presentation of solution for AI Challenge contest
+- <ins>**development.pdf**</ins> - presentation of solution for AI Challenge contest
 
 ### Additional info
 - *Our solution took 2nd place in AI Challenge*
