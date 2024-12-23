@@ -16,9 +16,10 @@ Its very important to carefully select reliable contractor if you are developmen
 - Robustness of solution. We did custom features selection and through out features that were creating bias in train 
   
 ### Repository structure
-- <ins>**notebooks/training**</ins> - all notebooks with various approaches for solving target task (RNNs, boostings...)
+- <ins>**notebooks/training**</ins> - all notebooks with various training methods for solving target task (RNNs, boostings...)
 - <ins>**notebooks/features**</ins> - all notebooks with feature generation code (GNN embeddings, tsfresh...)
-- <ins>**app**</ins> - full working streamlit app with best solution
+- <ins>**notebooks/research**</ins> - all notebooks with experiments
+- <ins>**app**</ins> - full working streamlit app with best solution (p.s. not last stage version yet)
 - <ins>**data**</ins> - all data including generated features and other stuff  
 - <ins>**development.pdf**</ins> - presentation of solution for AI Challenge contest
 
