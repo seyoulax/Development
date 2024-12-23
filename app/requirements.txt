@@ -1,0 +1,9 @@
+catboost
+plotly
+scikit-learn
+numpy
+pandas
+gdown
+streamlit
+streamlit-antd-components
+streamlit-searchbox
